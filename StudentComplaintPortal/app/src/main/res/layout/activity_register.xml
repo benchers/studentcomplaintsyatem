@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jayes.studentcomplaintportal.Register">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a11"
+        android:text="Student Complaint Portal"
+        android:textColor="@android:color/holo_green_dark"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Name"
+        android:layout_below="@+id/a11"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="13"
+        android:hint="Name"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ID_No"
+        android:layout_below="@+id/Name"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="13"
+        android:hint="ID No"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Enrollment_No"
+        android:layout_below="@+id/ID_No"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="13"
+        android:hint="Enrollment No"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email"
+        android:layout_below="@+id/Enrollment_No"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="13"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mobile_No"
+        android:inputType="phone"
+        android:layout_below="@+id/Email"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="13"
+        android:hint="Mobile_No"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hostel_Addr"
+        android:layout_below="@+id/Mobile_No"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="13"
+        android:hint="Hostel Address"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/Hostel_Addr"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="13"
+        android:hint="Password"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Re_Password"
+        android:layout_below="@+id/Password"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="13"
+        android:inputType="textPassword"
+        android:hint="Re-enter Password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/buttonRegister"
+        android:onClick="registerUser"
+        android:layout_below="@+id/Re_Password"
+        />
+
+
+
+</RelativeLayout>
+

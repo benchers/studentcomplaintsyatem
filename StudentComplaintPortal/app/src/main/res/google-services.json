@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "376949233507",
+    "firebase_url": "https://studentcomplaintportal.firebaseio.com",
+    "project_id": "studentcomplaintportal",
+    "storage_bucket": "studentcomplaintportal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376949233507:android:df4ee87ac9a2e78d",
+        "android_client_info": {
+          "package_name": "com.example.jayes.studentcomplaintportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376949233507-ms00pvkhfqfn6fn8l8efgne9bj18uk4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jayes.studentcomplaintportal",
+            "certificate_hash": "16321e0ce05c0ebcea4c4433bcbb8d5800439f02"
+          }
+        },
+        {
+          "client_id": "376949233507-ndssqq77ac1der4ph4h1qb7vjv3fedq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqMOlz8e1r_Jud2MnZKTl910aLqEywn3M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376949233507-ndssqq77ac1der4ph4h1qb7vjv3fedq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

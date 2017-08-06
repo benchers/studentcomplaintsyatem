@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jayes.studentcomplaintportal.LoginActivity">
+
+    <!-- Login progress -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a11"
+        android:text="Student Complaint Portal"
+        android:textColor="@android:color/holo_green_dark"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/a11"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:ems="13"
+        android:hint="Username"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:textColor="@android:color/black"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:ems="13"
+        android:hint="Password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:ems="17"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/Login"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:onClick="Login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not yet to register?"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:id="@+id/Register"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Login"
+        android:onClick="register"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/complaint_icon"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/Register"
+        android:layout_alignEnd="@+id/Register"
+        android:layout_marginBottom="37dp" />
+
+</RelativeLayout>
